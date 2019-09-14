@@ -1,0 +1,55 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+div.background {
+    background: url(img/bnd_football.jpg) repeat;
+    border: 2px solid black;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.92;
+    filter: alpha(opacity=60); /* For IE8 and earlier */	
+}
+
+div.transbox p {    
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;	
+} 
+
+</style>
+</head>
+<body>
+
+<div class="background">
+  <div class="transbox">    
+	<a href="http://www.izutov.com/">Back to the blog</a>
+	<h2>Парсилка  футбольного сайта.</h2>
+     Друг попросил сделать штуку, которая выдирает данные с сайта и забрасывает их в эксель: нужно копировать в эксель поле за полем из статистики к матчуF и потом строить аналитику в экселе. Он устал он этой обезьяньей работы и попросил меня автоматизировать заполнение исходных таблиц для анализа. Я погуглил и просмотрел код страницы. Программа берет адрес страницы из буфера обмена, забирает его содержимое и находит нужное.</br>
+    <b>Особенности: </b>
+    <ul>
+		<li> нет многопоточности, т.к. нет больших вычислений</li>
+		<li> русский интерфейс</li>
+	</ul>
+	<b>Фишки:</b>
+	<ul>
+		<li> Можно использовать архитектуру приложения для создания собственной программы по парсингу сайтов</li>
+		<li> Используется паттерн "стратегия" </li>
+	</ul>
+
+<b>Скриншот:</b></br>
+<img src="img/football_example.jpg"></img>
+</br></br>
+<a href="https://github.com/rituzy/FootballGet">Project on github</a>
+    </div>
+</div>
+
+    </div>
+</div>
+
+</body>
+</html>

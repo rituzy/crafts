@@ -1,0 +1,86 @@
+﻿<html>
+<head>
+</head>
+<body>
+<h1>WeightDiary</h1>
+<p>
+  WeightDiary application is intendended to create a plan of actions and food list for reducing weight in comfortable conditions.<br/>
+  <b><i>Features</i></b>
+  <ul>
+	<li>No ads.
+	<li>Free.
+	<li>User data is stored ONLY on user's phone
+	<li>The app asks "INTERNET" permission with the aim of bug reporting provided there was a problem in the app on user's phone. No personal data is sent during this reporting.
+	<li>The app asks "RECEIVE_BOOT_COMPLETED" and "VIBRATE" permissions for running alarm possibility.
+  </ul>
+  <a href="https://play.google.com/store/apps/details?id=com.izutov.android.weightdiary">The app on play</a><br/>
+</p>
+<h4>Help.</h4>
+<a href="mailto:roman.izutov@gmail.com?subject=User's feedback&body=Hello author,">Contact the author</a></br>
+<i>NOTE: The application gives instructions which could be only suggestive. If you are concerned about any of the above side-effects or if you would like any further information, please ask your doctor.</i> <br/>
+
+<p>This project does not prompt to measure many different health things like blood pressure, waist-line, pulse, fat content, muscle mass, the number of calories eaten etc. The app is designed as a simple assistant on the way to creation personal diet and way of living which help to keep you feeling fit without sacrifice.
+</p>
+<h3>Adding new data.</h3>
+<p>
+    The app allows putting your weight up to one-tenth. Thus weigher with a scale of a kilo will suit the needs as you can always figure approximately out you weight up to half a kilo. The main feature of the WeighDiary is that it allows putting weight data along with the events could because you weight increasing or decreasing. ("bad" and "good" events)
+    <br/><img width=560 src="img/dialog_en.png" align="middle" ><br/>
+    There are default events in the app. (One can delete them from Settings sections, refer to <a href="#settings">Settings</a>) You may have to put your own events through selecting Other option on the dialog of adding/editing the data for the date.
+    <br/><img width=560 src="img/other_en.png" align="middle" ><br/>
+    In the list here one can delete any event that has been added by accident.
+    <br/>These events are kept with the weight data. On the tab "Weight diary" you can see weight data list in chronologic order: in the top the last data and in the bottom – the oldest one.
+    <br/><img width=560 src="img/list_en.png" align="middle" ><br/>
+    Here it is possible to update existing data points (put another date by accident, wrong weight, event etc.)
+    <br/><img width=560 src="img/list_edit_en.png" align="middle" ><br/>
+    It is also possible to delete any list item.
+    <br/><img width=560 src="img/list_del_en.png" align="middle" ><br/>
+</p>
+<h3>The results.</h3>
+<p>
+    One can see graphic results on the Chart tab which shows his weight changings:
+    <br/>red points – fattening
+    <br/>green points – slimming
+    <br/>Upon clicking on one of these points you can see the date of putting the data, the weight, the trend (fattening, slimming) and <b>the most important things – events which made your weight change</b>.
+    <br/><i>For example:</i>
+    <br/>Today you ate pizza and put your weight 60 kg and bad event – "pizza"
+    <br/>Tomorrow you put your weight 60.5 kg and good event – "bicycle riding"
+    <br/>The day after tomorrow you put your weight 59.8 kg
+    <br/>As a result when clicking on the point for tomorrow (it will be red) you find yourself fattening and the event is pizza (there may be several events) And for the date after tomorrow (clicking on the point for this date, green point) you see that your weight decreased thanks to bicycle riding.
+    <br/><img width=560 src="img/graph_en.png" align="middle" ><br/>
+    The chart can be zoomed in and out.<br/>
+    <b>Taking all above said you create your personal set of food and way of living which allows you to keep you feeling fit by yourself. Provided you achieved the goal you do not have to use this app because all necessary information has been received.</b> Nobody wants to put his weights to the phone forever.
+</p>
+<h3>Statistics.</h3>
+<p>
+	Tapping the points and looking for reasons is good but seems to be not enouth for prompt analysis of weight increasing. Provided there are points for a month and one has to tap many points and make some conclusions on his mind.<br/>
+	This is not convenient and some simple graphic tool would be very handy here. Statistics tab comes to help with this. It has 4 graphs:
+	<br/>- reasons lead make your weight to increase and their contribution in kilos (descending order from left to right)
+	<br/>- reasons lead make your weight to increase and their frequency (descending order from left to right)
+	<br/>- reasons lead make your weight to decrease and their contribution in kilos (descending order from left to right)
+	<br/>- reasons lead make your weight to decrease and their frequency (descending order from left to right)
+	
+    <br/><img width=560 src="img/stats_reasons_en.png" align="middle" ><br/>
+    The chart can be zoomed in and out.<br/>
+    Thus we see the most important reasons on left hand side of the graph and vise versa on the right hand side. It is interesting if you find out that there is a reason which gives big contribution to weight increasing and at the same time is very rare: the most dangerous reason, should be taken out from your life(the same thing with good reasons: the most important should become more often)
+</p>
+<a name="settings"><h3>Settings</h3></a>
+<p>
+    <h4>Reminder</h4>
+    For you convenience it is possible to set weight alarm once a day (in case you are very busy or just forget to put the weight data in the phone) Notification will be emerged ONLY if you have not put your weight data for TODAY yet.
+    <br/><img width=560 src="img/settings_alarm_en.png" align="middle" ><br/>
+	<h4>Show only last several days</h4>
+	If you started you weight diary couple months ago you hardly manage to tap the point needed in the graph unless you zoom it out because there are too many points. And you usualy need last N days for analyzing current situation. You can set the number of last N days should be showed in the app. The app still contains all the points for all dates thus you are able to change this number to the maximum(0) or to the minimum(at least 1) number of days.(it is possible to return all the points to have a look at the overall trend on the graph) IMPORTANT: statistics will reflect the reasons according to the interval of last several days if it is set. 	
+	<br/><img width=560 src="img/last_N_days_en.png" align="middle" ><br/>
+	<h4>Show only first most important reasons in statistics tab</h4>
+	When there are too many reasons statistics graphs become a kind of heap of many reasons. To make these graphs more informative you are able to set the maximum number of reasons to be shown in statistics tab(they are sorted in descending order from most important to unimportant) 
+	<br/><img width=560 src="img/stats_last_N_reasons_en.png" align="middle" ><br/>	
+	<h4>Reasons editing</h4>
+    Consider you put several events in the past and you do not need them anymore in the event list (the list grew up and now it takes some time to list through several screens to find the event) For this case there are events’ editors in Settings section which allow to delete the events from the list so they will not show up in the add/edit dialog window event list and event list would be up to date.
+    <br/><img width=560 src="img/settings_list_events_del_en.png" align="middle" ><br/>
+    You can also clear the events list if it became useless and then fill it again while adding new data.
+    <br/><img width=560 src="img/settings_list_events_clear_en.png" align="middle" ><br/>
+    If you see you lost some necessary events in the list you can refill the events’ list again and revise it by hand.
+    <br/><img width=560 src="img/settings_list_events_fill_en.png" align="middle" ><br/>
+</p>
+</body>
+</html>
